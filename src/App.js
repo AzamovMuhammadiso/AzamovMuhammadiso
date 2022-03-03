@@ -20,7 +20,7 @@ function App() {
   const DeleteTodo = (id) => {
     setItems((e) => {
       return e.filter((arr, index) => {
-        return index != id;
+        return index !== id;
       });
     });
   };
